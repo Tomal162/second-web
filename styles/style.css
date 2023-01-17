@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Teko', sans-serif;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+img{
+    vertical-align: middle;
+}
+label.logo{
+    color: #000;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav{
+    background: rgb(252, 217, 217);
+    height: 200px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+li:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(70, 70, 70);
+    transition: .5s;
+}
+header{
+    background-color: rgb(252, 217, 217);
+    height: 1000px;
+}
+.headline1{
+    margin-top: 0px;
+    display: flex;
+    font-size: 30px;
+  justify-content: center;
+}
+.headline2{
+    display: flex;
+    font-size: 30px;
+  justify-content: center;
+}
+.description1{
+    margin-top: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6
+}
+button{
+    background-color: rgb(70, 70, 70);
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.primebtn1{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.primebtn1:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 70, 70);
+    transition: .5s;
+}
+.banner1{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.container1{
+    margin-top: 150px;
+    justify-content: center;
+    margin-left: 50px;
+}
+.headline3{
+    margin-left: 100px;
+    margin-top: 300px;
+    font-size: 50px;
+}
+.one{
+    color: rgb(70, 70, 70);
+}
+.two{
+    font-weight: bold;
+    color: rgb(199, 88, 88);
+}
+.description2{
+    font-size: 15px;
+    line-height: 28px;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.primebtn2{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+}
+.primebtn2:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 70, 70);
+    transition: .5s;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.moto{
+    border-left: 5px solid rgb(199, 88, 88);
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.moto h2{
+    margin-left: 20px;
+}
+.description3{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 150px;
+    color: dimgray;
+}
+.description4 {
+    margin-top: 80px;
+    margin-left: 200px; 
+}
+.title1{
+    height: 200px;
+    width: 500px;
+    border: 5px;
+}
+.title2{
+    height: 200px;
+    width: 500px;
+    border: 5px;
+}
+.title3{
+    height: 200px;
+    width: 500px;
+    border: 5px;
+}
+.title4{
+    height: 200px;
+    width: 500px;
+    border: 5px;
+}
+.banner2{
+    width: 100%;
+    margin-left: 200px;
+    justify-content: center;
+}
+.stamp{
+    text-align: center;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+.stamp button{
+    background-color: rgb(199, 88, 88);
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 15px;
+    font-family: 'Teko', sans-serif;
+}
+.facts{
+    margin-top: 200px;
+    font-size: 30px;
+    margin-left: -950px;
+    display: flex;
+    justify-content: center;
+}
+.facts h2{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.facts p{
+    margin-top: 20px;
+    font-size: 15px;
+    margin-left: 60px;
+    color: dimgray;
+}
+.sticky1{
+    display: flex;
+    justify-content: center;
+}
+.acheivements{
+    margin-top: 200px;
+    margin-left: -300px;
+    margin-right: -300px;
+    display: flex;
+    justify-content:space-between
+}
+.amounts{
+    margin-top: 5px;
+    display: flex;
+    margin-left: -400px;
+    margin-right: -400px;
+    justify-content: space-between;
+}
+.amounts h1{
+    text-align: center;
+}
+.sponsors{
+    margin-top: 200px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    justify-content: center;
+}
+.sponsors p{
+    margin-top: 5px;
+    font-size: 15px;
+    color: dimgray;
+    line-height: 20px;
+}
+.support{
+    display: flex;
+    justify-content: center;
+}
+.web{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+.credit{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    background: rgb(255, 235, 235);
+}
+
+/* Mobile Device */
+.menubtn{
+    position: absolute;
+    top: 30px;
+    float: right;
+    margin-right: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
+@media (max-width:952px){
+   
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .navlinks li{
+        font-size: 16px;
+        margin: 30px auto;
+    }
+}
+
+
